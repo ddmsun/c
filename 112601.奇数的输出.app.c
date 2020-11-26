@@ -1,7 +1,9 @@
 #include<stdio.h>
 void main(){
-int a;
-for (a=0;a<1024;a++)
-{printf ("%d\n",2*a+1);}
-
+int a=1;
+while (a<=1024)
+{
+printf("%d\n",a);
+a=a+2;
+}
 }
