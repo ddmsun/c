@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main(){
 int n=20;
+printf ("欢迎使用本程序\n");
 scanf ("%d",&n);
 switch (n){
 case 1: printf("清华大学\n"); break;
